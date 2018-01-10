@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#eae7e7"
+    android:padding="20sp"
+    android:layout_height="wrap_content"
+    tools:context="com.example.admin.fragment.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+  <EditText
+      android:id="@+id/edt1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:inputType="number"
+      android:padding="10sp"
+      android:textColor="#5c1b1b"
+      android:textStyle="italic"
+      android:hint="Enter First Number"/>
+
+    <EditText
+        android:id="@+id/etd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:textColor="#5c1b1b"
+        android:textStyle="italic"
+        android:hint="Enter Second number"/>
+        <Button
+            android:id="@+id/but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:textAllCaps="false"
+            android:textColor="#080d40"
+            android:text="Add"/>
+
+
+    </LinearLayout>
