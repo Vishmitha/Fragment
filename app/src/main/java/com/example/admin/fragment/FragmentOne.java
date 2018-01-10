@@ -34,6 +34,7 @@ public class FragmentOne extends Fragment {
        MainActivity mainActivity = (MainActivity) getActivity();
        mainActivity.PassData(Integer.parseInt(editText1.getText().toString()) + Integer.parseInt(editText2.getText().toString()));
        editText1.setText("");
+       ///jdsfghdbghdxgvbhdbvhdbnvkbdxnfvbdjfh
        editText2.setText("");
         return  view;
     }
