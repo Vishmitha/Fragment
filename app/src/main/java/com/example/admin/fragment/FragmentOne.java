@@ -29,6 +29,7 @@ public class FragmentOne extends Fragment {
         });
         return view;
         //vishmitha
+        ////cvcxvcxhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjgdsfcf
     }
 
    View sendData(View view){
