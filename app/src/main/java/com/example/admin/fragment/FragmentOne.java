@@ -14,7 +14,7 @@ import android.widget.EditText;
 public class FragmentOne extends Fragment {
     EditText editText1, editText2;
     Button button;
-
+//ghtrfghbetgree
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fragment_one, container, false);
